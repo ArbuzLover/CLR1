@@ -16,7 +16,6 @@ namespace CLR1 {
 		int count = 0;
 	private: System::Windows::Forms::ProgressBar^ progressBar1;
 
-		   int count3 = 0;
 	public:
 		MyForm(void)
 		{
@@ -149,7 +148,6 @@ namespace CLR1 {
 	}
 
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
-		count3++;
 		//this->label3->Text = this->label3->Text + "   ";
 		this->label3->Padding = this->label3->Padding + System::Windows::Forms::Padding(5,5,5,5);
 	}
